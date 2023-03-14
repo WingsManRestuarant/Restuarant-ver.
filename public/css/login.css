@@ -2,12 +2,11 @@ body {
     background-color: #F9EFE3;
 }
 
-/* Style for the outer login div */
 .login-word {
     position: absolute;
     width: 285px;
     height: 120px;
-    left: 817px;
+    left: 625px;
     top: 272px;
 
     font-family: 'Quicksand';
@@ -19,18 +18,30 @@ body {
 
     color: #FF5B00;
 
+    border: 1px solid #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 
 .img {
     position: absolute;
     width: 340px;
     height: 311px;
-    left: 790px;
+    left: 598px;
     top: 420px;
 
     background: url(image.png);
     mix-blend-mode: color-burn;
+}
+
+
+.field {
+    position: absolute;
+    width: 531px;
+    height: 146px;
+    left: 694px;
+    top: 497px;
+
 }
 
 .login-button {
@@ -43,17 +54,8 @@ body {
     position: absolute;
     width: 532px;
     height: 50px;
-    left: 694px;
+    left: 502px;
     top: 759px;
 
     background: #FF5B00;
-}
-
-.field {
-    position: absolute;
-    width: 531px;
-    height: 146px;
-    left: 694px;
-    top: 497px;
-
 }
