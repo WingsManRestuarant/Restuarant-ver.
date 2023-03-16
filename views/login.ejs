@@ -19,6 +19,14 @@
 
 </div> -->
 
+<!-- still not clickable by the whole div -->
 <div class="login-button">
-    <button id="login">login</button>
+    <button id="login" onclick="redirectToOrder()">login</button>
+
+    <!-- cheat button to go to order page -->
+    <script>
+        function redirectToOrder() {
+            window.location.href = "order";
+        }
+    </script>
 </div>

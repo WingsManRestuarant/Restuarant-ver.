@@ -1,3 +1,10 @@
+body {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #F9EFE3;
+}
+
 /* refresh logo */
 .refresh {
     position: absolute;
@@ -6,4 +13,36 @@
     left: 1852px;
     top: 24px;
 
+}
+
+.Queue {
+    position: absolute;
+    width: 525px;
+    height: 2220px;
+    left: 192px;
+    top: 0px;
+}
+
+.Cooking {
+    position: absolute;
+    width: 485px;
+    height: 1080px;
+    left: 717px;
+    top: 0px;
+
+}
+
+.Delivery {
+    position: absolute;
+    width: 485px;
+    height: 1080px;
+    left: 1222px;
+    top: 0px;
+
+}
+
+.Queue>h1,
+.Cooking>h1,
+.Delivery>h1 {
+    font-family: 'Quicksand';
 }
