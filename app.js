@@ -12,9 +12,18 @@ app.use(express.static("public"));
 // use bodyParser for URL encoding
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+// root page for login
 app.get('/', function (req, res) {
     res.render('login');
 });
+
+
+// order page
+app.get('/order', function (req, res) {
+    res.render('order');
+});
+
 
 app.listen(3000, function () {
     console.log("Server started on port 3000");
