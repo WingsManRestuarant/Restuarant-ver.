@@ -24,6 +24,9 @@ app.get('/order', function (req, res) {
     res.render('order');
 });
 
+app.get('/kanban', function (req, res) {
+    res.render('kanban');
+});
 
 app.listen(3000, function () {
     console.log("Server started on port 3000");
