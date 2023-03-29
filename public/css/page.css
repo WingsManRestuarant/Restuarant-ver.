@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kaushan+Script&family=Kosugi&display=swap');
+
+* {
+    background-color: #f9efe3;
+    font-family: "Quicksand", sans-serif;
+} 
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .title{
+        font-size: 25px;
+    }
+}

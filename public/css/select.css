@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kaushan+Script&family=Kosugi&display=swap');
+
+* {
+    background-color: #f9efe3;
+    font-family: "Quicksand", sans-serif;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wg_category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wg_category h1 {
+    position: relative;
+    width: 391px;
+    height: 140px;
+    top: 84px;
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 145px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #ff5b00;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.wg_category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 2rem;
+    position: absolute;
+    top: 35%;
+}
+
+.wg_category-container #category {
+    width: 250px;
+    height: 60px;
+    font-family: 'Kosugi', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #ff5b00;
+    margin-top: 6rem;
+    border: 1px solid #4169e1;
+    border-radius: 43px;
+}
+
+.wg_category-container #appetizer {
+    width: 250px;
+    height: 60px;
+    font-family: 'Kosugi', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #ff5b00;
+    margin-top: 0;
+    border: 1px solid #4169e1;
+    border-radius: 43px;
+}

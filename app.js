@@ -18,14 +18,28 @@ app.get('/', function (req, res) {
     res.render('login');
 });
 
-
-// order page
 app.get('/order', function (req, res) {
     res.render('order');
 });
 
 app.get('/kanban', function (req, res) {
     res.render('kanban');
+});
+
+app.get('/select', function (req, res) {
+    res.render('select');
+});
+
+app.get('/queue', function (req, res) {
+    res.render('queue');
+});
+
+app.get('/cooking', function (req, res) {
+    res.render('cooking');
+});
+
+app.get('/delivery', function (req, res) {
+    res.render('delivery');
 });
 
 app.listen(3000, function () {
