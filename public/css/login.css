@@ -130,3 +130,11 @@ button {
 .register p a:hover {
     text-decoration: underline;
 }
+
+#wingman {
+    position: absolute;
+    width: 301px;
+    height: 28px;
+    left: 37px;
+    bottom: 2.5%;
+}

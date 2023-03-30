@@ -1,4 +1,13 @@
+<!-- leaflet map -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
 <link rel="stylesheet" href="css/page.css">
+
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
 
 <button onclick="history.back()">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-caret-left"
@@ -8,3 +17,29 @@
     </svg>
 </button>
 <div class="title">Delivery</div>
+
+<div id="map"></div>
+
+<script>
+    // leaflet script
+    var map = L.map('map').setView([18.800886, 98.950828], 14);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // user location
+    var marker = L.marker([18.800886, 98.950828]).addTo(map);
+    marker.bindPopup("You are here");
+
+    // fixed restaurant coordinate 
+    var circle = L.circle([18.810645, 98.947943], {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 100
+    }).addTo(map);
+    circle.bindPopup("Wingsman Restaurant");
+
+
+</script>

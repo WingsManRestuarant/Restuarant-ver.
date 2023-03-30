@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kaushan+Script&family=Kosugi&display=swap');
 
-* {
+body {
     background-color: #f9efe3;
     font-family: "Quicksand", sans-serif;
-} 
+}
 
 button {
     background: none;
@@ -14,14 +14,23 @@ button {
     color: black;
 }
 
+
+#map {
+    position: absolute;
+    width: 335px;
+    height: 335px;
+    top: 450px;
+    left: 300px;
+}
+
 @media screen and (max-width: 768px) {
-    .title{
+    .title {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width: 390px) {
-    .title{
+    .title {
         font-size: 25px;
     }
 }
