@@ -9,7 +9,7 @@
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
 
-<button onclick="history.back()">
+<button id="back" onclick="history.back()">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-caret-left"
         viewBox="0 0 16 16">
         <path class="wg_menu-navbar_back"
@@ -17,7 +17,16 @@
     </svg>
 </button>
 <div class="title">Delivery</div>
+<div class="order">
+    <p>Order #
+    </p>
+    <p>Order status : Delivering
+    </p>
+    <p>Order items :
+    </p>
+    <p>total : $</p>
 
+</div>
 <div id="map"></div>
 
 <script>
